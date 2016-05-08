@@ -3,4 +3,8 @@ class TopController < ApplicationController
   	  @message = 'おはようございます！'
   	  @descirption = 'これからRailsアプリケーションを作ります'
   end
+
+    def about
+        end
+    
 end

@@ -1,7 +1,6 @@
 class TopController < ApplicationController
   def index
-  end
-
-  def about
+  	  @message = 'おはようございます！'
+  	  @descirption = 'これからRailsアプリケーションを作ります'
   end
 end

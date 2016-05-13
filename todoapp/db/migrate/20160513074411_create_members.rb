@@ -6,8 +6,8 @@ class CreateMembers < ActiveRecord::Migration
       t.string :full_name
       t.string :email
       t.date :birthday
-      t.integer :gender, null: false, default:0
-      t.boolean :administrator, null: false, default:false
+      t.integer :gender, null: false, default: 0
+      t.boolean :administrator, null: false, default: false
       t.timestamps null: false
     end
   end
